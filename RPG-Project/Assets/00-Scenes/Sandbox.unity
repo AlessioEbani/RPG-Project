@@ -1057,21 +1057,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2698801983956165290, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698801983956165290, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
+      propertyPath: m_Acceleration
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698801983956165290, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2698801985945902563, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2698801985945902563, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2698801985945902563, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2698801985945902563, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.84
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2698801985945902563, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1105,47 +1117,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8240844266767248819, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742440563456928725, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+    - target: {fileID: 8742440563456928725, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0b59e6a1ffa26004f89375d515e5dec8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
---- !u!1 &2698801983956165289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2698801985945902575, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
-  m_PrefabInstance: {fileID: 2698801983956165288}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &2698801983956165290
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2698801983956165289}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 12
-  m_Acceleration: 20
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &2698801983956165291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2698801983956165289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24fc66d729d00cc45a845011b8d93364, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2698801983956165295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2698801985945902563, guid: 01863a4b7eeb20d4f97655f919e4e2c4, type: 3}
