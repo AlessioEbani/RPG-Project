@@ -11,9 +11,7 @@
           <e p="Mover.cs" t="Include" />
         </e>
         <e p="10-AddOns" t="Include">
-          <e p="Synty - Polygon Student Sample" t="Include">
-            <e p="README - Usage Rights for these assets.txt" t="Include" />
-          </e>
+          <e p="README - Usage Rights for these assets.txt" t="Include" />
           <e p="TextMesh Pro" t="Include">
             <e p="Fonts" t="Include">
               <e p="LiberationSans - OFL.txt" t="Include" />
